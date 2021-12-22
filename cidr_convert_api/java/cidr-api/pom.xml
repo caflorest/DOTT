@@ -48,14 +48,19 @@
     <build>   
         <plugins>
                  <plugin>
-                 <groupId>org.sonarsource.sonar-packaging-maven-plugin</groupId>
-                 <artifactId>sonar-packaging-maven-plugin</artifactId>
-                 <version>1.18.0.372</version>
-                 <extensions>true</extensions>
-                 <configuration>
-                   <pluginClass>com.mycompany.sonar.reference.ExamplePlugin</pluginClass>
-                 </configuration>
-               </plugin>
+                      <groupId>org.jacoco</groupId>
+                      <artifactId>jacoco-maven-plugin</artifactId>
+                      <version>0.8.5</version>
+                      <executions>
+                       <execution>
+                        <id>report</id>
+                        <goals>
+                         <goal>report</goal>
+                        </goals>
+                        <phase>verify</phase>
+                       </execution>
+                      </executions>
+                 </plugin>
                  
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>

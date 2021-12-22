@@ -7,7 +7,7 @@ import junit.framework.TestSuite;*/
 import org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
-/*
+
 
 public class ConvertTest extends TestCase
 {
@@ -70,5 +70,3 @@ public class ConvertTest extends TestCase
         assertFalse(Convert.ipv4Validation("...."));
     }
 }
-
- */

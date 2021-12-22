@@ -1,9 +1,12 @@
 package com.dott;
 
 import static com.dott.Convert.*;
-import org.junit.jupiter.api.Test;
+/*import junit.framework.Test;
 import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import junit.framework.TestSuite;*/
+import org.junit.Assert.*;
+import org.junit.Before;
+import org.junit.Test;
 /*
 
 public class ConvertTest extends TestCase

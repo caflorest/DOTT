@@ -40,14 +40,15 @@
     </dependencies>
 
     <build>
-        <plugins>
-                 <settings>
+             <settings>
                     <pluginGroups>
                       <pluginGroup>
                         org.sonarsource.scanner.maven
                       </pluginGroup>
                     </pluginGroups>
                   </settings>
+        <plugins>
+                 
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>

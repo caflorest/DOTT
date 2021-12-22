@@ -11,6 +11,8 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+             <sonar.organization>caflorest</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
@@ -39,6 +41,13 @@
 
     <build>
         <plugins>
+                 <settings>
+                    <pluginGroups>
+                      <pluginGroup>
+                        org.sonarsource.scanner.maven
+                      </pluginGroup>
+                    </pluginGroups>
+                  </settings>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>

@@ -6,10 +6,10 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 /*
 
-public class ConvertTest extends TestCase
+public class TestConvert extends TestCase
 {
 
-    public ConvertTest( String testName )
+    public TestConvert( String testName )
     {
         super( testName );
     }
